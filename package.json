@@ -1,0 +1,7 @@
+{
+  "name": "cldirectory",
+  "private": true,
+  "scripts": {
+    "zip": "node scripts/zip.js"
+  }
+}

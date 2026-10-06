@@ -1,0 +1,432 @@
+/*=======================================================================
+= Sortable Search Widget
+=========================================================================*/
+.rtcl .rtcl-form-group, .rtcl-form-group {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1024px) {
+    .rtcl-widget-search-sortable .rtcl-widget-search-sortable-wrapper {
+        gap: 10px;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .h1-main-search .rtcl-widget-search-sortable .rtcl-form-group {
+        background-color: #f8f9fb;
+        border: 1px solid #dde1ed;
+        border-radius: 5px !important;
+    }
+
+    .rtcl .rtcl-widget-search-sortable .rtcl-btn, .rtcl-widget-search-sortable .rtcl-btn {
+        border-radius: 5px !important;
+    }
+}
+
+
+/*=======================================================================
+= RT Single Listing Category
+=========================================================================*/
+i.rtcl-icon.rtcl-icon-.hotel-cl-icon:before {
+    font-size: 60% !important;
+}
+.keywords-field-wrapper .rtcl-icon-spinner.animate-spin {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.rt-listing-category-wrapper.layout-style-2 .categories-block .category-content-wrapper {
+    gap: 20px;
+    left: auto;
+    bottom: auto;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+}
+.rt-listing-category-wrapper.layout-style-2 .categories-block {
+    display: inline-flex;
+    overflow: visible;
+    width: 100%;
+    transition: all .5s linear;
+}
+.rt-listing-category-wrapper.layout-style-2 .categories-block .categories-block-icon {
+    background-color: var(--rt-primary-color);
+}
+
+/* ==== Style 3 ==== */
+.rt-listing-category-wrapper.layout-style-3 .categories-block .category-content-wrapper {
+    left: 0;
+    bottom: 0;
+    flex-flow: column;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+/*=======================================================================
+=  Listing Slider (Toolkit Addon)
+=========================================================================*/
+.rtcl-el-slider-wrapper .listing-thumb a.directory-author-image {
+    width: 55px !important;
+}
+
+.rt-el-listing-wrapper .listing-box .listing-thumb:before,
+.rtcl-el-slider-wrapper .listing-box .listing-thumb:before {
+    height: 90%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.rtcl.rtcl-listings-sc-wrapper.cldirectory-elementor-widget .rtcl-list-view .listing-item {
+    background-color: #f2f2f2;
+}
+
+.rtcl.rtcl-listings-sc-wrapper.cldirectory-elementor-widget .rtcl-list-view .listing-item .listing-thumb img,
+.rtcl.rtcl-listings-sc-wrapper.cldirectory-elementor-widget .rtcl-list-view .listing-item .listing-thumb {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/*=======================================================================
+=  Business Hours Sidebar Widget
+=========================================================================*/
+.listing-sidebar .rtclbh-block {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+}
+
+.rtclbh-block .rtclbh, .rtclbh-block .rtclbh td, .rtclbh-block .rtclbh th {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.listingDetails-block.mb-30 {
+    margin: 0;
+}
+
+.rtcl.single-rtcl_listing .rtcl-breadcrumb {
+    margin: 0;
+    padding: 0;
+}
+.rtcl .rtcl-breadcrumb {
+    border: none;
+}
+
+/*=======================================================================
+=  Sidebar Chat
+=========================================================================*/
+.rtcl-chat-website-link {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.rtcl-chat-website-link .rtcl-contact-seller {
+    width: 100%;
+}
+
+.rtcl-chat-website-link .rtcl-chat-link {
+    width: 100%;
+    gap: 5px;
+    color: #797F89;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*=======================================================================
+=  Toolkit Listing ads layout 2
+=========================================================================*/
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-2-view .rtcl-listing-badge-wrap {
+   left: 15px
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .listing-thumb-inner {
+    object-fit: cover;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-2-view .item-price {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .listing-item {
+    overflow: hidden;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .rtcl-meta-buttons-wrap {
+    gap: 15px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .rtcl-meta-buttons-wrap .rtcl-el-button a {
+    border-radius: 6px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .rtcl-meta-buttons-wrap .rtcl-el-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .rtcl-meta-buttons-wrap .rtcl-el-button .rtcl-favourites {
+    font-size: 18px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .rtcl-meta-buttons-wrap .rtcl-el-button .eye-alt-cl-icon {
+    font-size: 15px;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-4-view .rtcl-listing-meta-data,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-3-view .rtcl-listing-meta-data,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-2-view .rtcl-listing-meta-data,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-4-view .listing-title,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-3-view .listing-title,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-2-view .listing-title,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-4-view .listing-price,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-3-view .listing-price,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-2-view .listing-price,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-4-view .category,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-3-view .category,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-2-view .category {
+    padding: 0 20px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-2-view .category a {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    background-color: var(--rt-primary-color);
+}
+
+/* Category and badges share one row; the card body already has its own padding. */
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-2-view .listing-item .item-content > .listing-category-badges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-2-view .listing-item .item-content > .listing-category-badges .category {
+    order: 1;
+    padding: 0;
+}
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-2-view .listing-item .item-content > .listing-category-badges .category a {
+    color: #ffffff;
+}
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-2-view .listing-item .item-content > .listing-category-badges .rtcl-listing-badge-wrap {
+    order: 2;
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+}
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-2-view .listing-item .item-content > .listing-title,
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-2-view .listing-item .item-content > .rtcl-listing-meta-data {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-2-view .listing-item:hover {
+    box-shadow: 0 2px 35px rgba(0, 0, 0, 0.08);
+}
+
+/*=======================================================================
+=  Toolkit Listing ads layout 4
+=========================================================================*/
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-4-view .listing-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/*=======================================================================
+=  Toolkit Listing ads layout 5
+=========================================================================*/
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .listing-thumb .item-price {
+    padding: 8px 10px 4px 30px;
+}
+.rtcl .rtcl-grid-view.rtcl-style-5-view .rtcl-listing-badge-wrap {
+    top: 15px;
+    left: 15px;
+}
+.rtcl-listings.rtcl-style-5-view .listing-item .item-content {
+    border: none;
+}
+
+.rtcl .rtcl-grid-view.rtcl-style-5-view .listing-item .item-content {
+    border: none;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .listing-item {
+    border: 1px solid #ededed;
+    background-color: #ffffff;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtin-bottom {
+    border-top: 1px solid #EDEDEC;
+}
+.rtcl .rtcl-listings.rtcl-style-5-view .category {
+    gap: 10px;
+    display: inline-flex;
+}
+.rtcl .rtcl-listings.rtcl-style-5-view .category a,
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-5-view .listing-item .category a {
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-flex;
+    background-color: var(--rt-primary-color);
+}
+.rtcl .rtcl-listings.rtcl-style-5-view .category a:hover,
+.rtcl.rtcl-listings-sc-wrapper .rtcl-listings.rtcl-grid-view.rtcl-style-5-view .listing-item .category a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+.rtcl .rtcl-listings.rtcl-style-5-view .listing-item h3.listing-title {
+    padding: 0;
+    margin-top: 7px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-listings.rtcl-style-5-view .listing-item:hover {
+    box-shadow: none;
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn {
+    border-right: 1px solid #EDEDEC;
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn [class*=" rtcl-icon-"]:before, [class^=rtcl-icon-]:before,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn .rtcl-icon {
+    font-weight: 700;
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn .rtcl-favourites {
+    font-size: 20px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a.rtcl-compare {
+    font-size: 18px;
+}
+.rtcl .rtcl-grid-view.rtcl-style-5-view .listing-item .listing-price {
+    padding: 0;
+    margin-top: 10px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtcl-price {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: var(--rt-primary-color);
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .category {
+    font-size: 14px;
+}
+
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtcl-listing-meta-data {
+    row-gap: 5px;
+}
+
+/*=======================================================================
+=  Home Three New Home Page
+=========================================================================*/
+/* ==== Banner Section ==== */
+.blur-circle .elementor-widget-container,
+.blur-circle {
+    opacity: 1;
+    filter: blur(150px);
+    transform: scale(1.2);
+}
+
+/*=======================================================================
+=  Single Listing Page 1 Layout
+=========================================================================*/
+.single-listing-style .single-listing .single-layout-1 .rtcl-main-content-wrapper,
+.single-listing-style .single-listing .single-layout-1 .listing-heading {
+    margin-top: 0;
+}
+.single-listing-style .single-listing .single-layout-1 .cldirectory-content-top {
+    margin-bottom: 30px;
+}
+
+.listing-heading-right .listing-price {
+    gap: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--rt-primary-color);
+}
+
+.single-listing-style .single-listing .rtcl-price {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.single-listing-style .single-listing .rtcl-price .rtcl-price-meta {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rtcl .single-layout-1.listing-item .rtcl-price {
+    color: var(--rt-primary-color);
+    font-size: 22px;
+}
+
+/*=======================================================================
+=  Single Listing Page 2 Layout
+=========================================================================*/
+.rtcl-main-content-wrapper {
+    margin-top: 30px;
+}
+
+
+/*=======================================================================
+=  Form builder single layout
+=========================================================================*/
+
+.rtcl-sl-custom-single-layout-items-wrapper {
+    display: inline-flex;
+    flex-flow: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.rtcl-sl-container .listing-sidebar .rtcl-do-email form {
+    display: block;
+}
+
+.single-listing-style .single-listing .rtcl-sl-custom-single-layout-items-wrapper .listing-heading {
+    margin-top: 0;
+}
+
+.single-listing-style .rtcl-sl-custom-single-layout-items-wrapper .cldirectory-accordion-item .accordion-header .btn:after {
+    top: 10px;
+    right: 0;
+}
+.rtcl-sl-containers .cldirectory-accordion-item .accordion-header .btn.collapsed {
+    margin-bottom: 0;
+}
+.rtcl .rtcl-related-listing-wrap .rtcl-related-listings .listing-item .related-item-inner .item-content h3.listing-title {
+    padding: 0;
+    margin: 0 0 10px;
+}
+.rtcl-sl-sections {
+    margin-bottom: 50px;
+}
+/*=======================================================================
+=  Radius Booking
+=========================================================================*/
+.rtrb-cl-book-now {
+    border-radius: 6px !important;
+}
+.single-rtcl_listing .rtrb-cl-book-now-wrapper {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+}
+
+.listing-content-wrap .rtrb-cl-book-now-wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 30px !important;
+    margin-bottom: 5px !important;
+}
+
+/* Hide empty listing header thumb */
+.listing-header-thumb:not(:has(img)) {
+    display: none;
+}

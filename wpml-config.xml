@@ -1,0 +1,21 @@
+<wpml-config>
+  <admin-texts>
+    <key name="cldirectory">
+      <key name="header_btn_txt" />
+      <key name="copyright_text" />
+      <key name="listing_owner_widget_title" />
+      <key name="contact_address" />
+      <key name="contact_phone" />
+      <key name="contact_email" />
+      <key name="location_text" />
+      <key name="phone_text" />
+      <key name="social_text" />
+      <key name="footer_cta_banner_title" />
+      <key name="footer_cta_banner_text" />
+      <key name="footer_cta_btn_text" />
+      <key name="error_text" />
+      <key name="error_subtitle" />
+      <key name="error_buttontext" />
+    </key>
+  </admin-texts>
+</wpml-config>
