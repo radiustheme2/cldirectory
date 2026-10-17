@@ -1,3 +1,9 @@
+# NPM #
+##########
+# Ignore all directories called node_modules in current folder and any subfolders.
+node_modules/
+/node_modules/
+
 # Packages #
 ############
 *.7z
@@ -7,78 +13,79 @@
 *.iso
 *.jar
 *.rar
-*.tar
-*.zip
+*.tarzip
 *.tgz
 *.map
-
-# Env files #
-######################
-.env
 
 # Logs and databases #
 ######################
 *.log
 *.sql
+*.env
 
 # OS generated files #
 ######################
 **.DS_Store*
 ehthumbs.db
-Icon?
 Thumbs.db
 ._*
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.vscode/
+/.vscode/
+*.phar
 
 # Vim generated files #
 ######################
 *.un~
 
+# VSCode generated files #
+######################
+.vscode
+
 # SASS #
 ##########
 **/.sass-cache
 **/.sass-cache/*
-**/.map
 
-# Composer #
-##########
-composer.lock
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
 
-# JSHint #
-##########
-/.jshintrc
+# Dreamweaver added files
+_notes
+dwsync.xml
 
-# Bower #
-##########
-assets/bower_components/*
+# Komodo
+*.komodoproject
+.komodotools
 
-# Codekit #
+# EXTRAS #
 ##########
-/codekit-config.json
-*.codekit
-**.codekit-cache/*
-
-# NPM #
-##########
-node_modules
 package-lock.json
+composer.lock
 yarn.lock
-
-# Compiled Files and Build Dirs #
-##########
-/README.html
-/build/
-/assets/dist/css/*.css
-/assets/dist/js/*.**
-mix-manifest.json
-
-# PhpStrom Project Files #
-.idea/
-library/vendors/composer
-assets/img/.DS_Store
-assets/sass/HTML
-assets/sass/Rails
-HTML
-Rails
-
-# VSCode Workspace Settings #
-.vscode
+bun.lock
+_ext_dev
+dist
+build
+.idea
+assets/css
+assets/js
+assets/modules
+tmp
+_ext_**
+.fleet
+*.txt
