@@ -17,7 +17,7 @@ if ( ! defined( 'RT_DEBUG' ) || ! constant( 'RT_DEBUG' ) ) {
 	Helper::requires( 'updater/lc-utility.php' );
 	Helper::requires( 'updater/lc-helper.php' );
 }
-//Helper::requires( 'updater/theme-updater.php' );
+
 Helper::requires( 'class-tgm-plugin-activation.php' );
 Helper::requires( 'tgm-config.php' );
 Helper::requires( 'general.php' );
